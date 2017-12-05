@@ -2,7 +2,7 @@ package day2
 
 import org.scalatest.{Matchers, WordSpec}
 
-class Day2Test extends WordSpec with Matchers {
+class Day2Spec extends WordSpec with Matchers {
 
   "day2 part 1" should {
     "calculate a checksum" in {
