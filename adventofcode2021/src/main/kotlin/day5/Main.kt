@@ -52,10 +52,6 @@ fun main(args: Array<String>) {
     println(map.countGreaterEqual(2))
 }
 
-enum class Direction {
-    HORIZONTAL, VERTICAL, DIAGONAL
-}
-
 fun stepThrough(start: Int, end: Int): List<Int> {
     val r = mutableListOf<Int>(start)
     var i = start
