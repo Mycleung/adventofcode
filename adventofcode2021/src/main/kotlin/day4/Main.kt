@@ -1,7 +1,6 @@
 package main.kotlin.day4
 
 import main.kotlin.common.Common
-import java.text.DecimalFormat
 
 fun main(args: Array<String>) {
     val input = Common.readFileLinesToString("input4.txt")

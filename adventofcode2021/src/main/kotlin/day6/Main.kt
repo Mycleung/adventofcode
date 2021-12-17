@@ -1,15 +1,12 @@
 package main.kotlin.day6
 
 import main.kotlin.common.Common
-import kotlin.math.max
 
 fun main(args: Array<String>) {
     val input = Common.readFileLinesToString("input6.txt")
     val startingFish = input[0].split(",").map{ it.toInt() }
     val fishByTimer = MutableList(9) { 0.toBigInteger() }
-    for (i in startingFish) {
-        fishByTimer[i] += 1.toBigInteger()
-    }
+    startingFish.forEach { fishByTimer[it] += 1.toBigInteger() }
 
     val daysToIterate = 256
 
